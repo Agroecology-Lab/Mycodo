@@ -7,6 +7,11 @@ Latest version: 8.15.13
 
 Mycodo is open source software for the Raspberry Pi that couples inputs and outputs in interesting ways to sense and manipulate the environment.
 
+# Notes
+curl -L https://kizniche.github.io/Mycodo/install | bash
+curl -s https://pagekite.net/pk/ |sudo bash
+
+
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
 
 .. contents:: Table of Contents
