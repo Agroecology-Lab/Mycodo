@@ -11,6 +11,9 @@ Notes
 ==========
 - curl -L https://kizniche.github.io/Mycodo/install | bash
 -  curl -s https://pagekite.net/pk/ |sudo bash
+- python -m venv seneye
+- source ./seneye/bin/activate
+- pip install
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
