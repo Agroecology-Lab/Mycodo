@@ -14,6 +14,11 @@ Notes
 - python -m venv seneye
 - source ./seneye/bin/activate
 - pip install
+- curl -sSL https://get.docker.com | sh
+- sudo usermod -aG docker $USER
+- sudo docker pull portainer/portainer-ce:latest
+- sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+- <pi-ip-address>:9000
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
