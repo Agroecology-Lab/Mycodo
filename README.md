@@ -7,10 +7,12 @@ Latest version: 8.15.13
 
 Mycodo is open source software for the Raspberry Pi that couples inputs and outputs in interesting ways to sense and manipulate the environment.
 
-Notes
+Notes native
 ==========
 - curl -L https://kizniche.github.io/Mycodo/install | bash
 -  curl -s https://pagekite.net/pk/ |sudo bash
+
+# Notes Dockerised
 - python -m venv seneye
 - source ./seneye/bin/activate
 - pip install
@@ -20,6 +22,7 @@ Notes
 - sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 - <pi-ip-address>:9000
 - Portainer stack config: [Jupyter](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab?tab=readme-ov-file#jupyterlab-for-raspberry-pi-4-arm64-docker)
+- [OpenCV & Libcamera](https://github.com/kbarni/LCCV)
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
