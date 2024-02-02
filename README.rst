@@ -19,6 +19,7 @@ Notes
 - sudo docker pull portainer/portainer-ce:latest
 - sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 - <pi-ip-address>:9000
+- Portainer config: [ghcr.io/jakoch/jupyter-devbox:latest](https://github.com/jakoch/jupyter-devbox)
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
