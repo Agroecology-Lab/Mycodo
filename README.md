@@ -35,6 +35,7 @@ Notes native
 - apt install cmake
 - [CV Webui](https://github.com/isLinXu/vision-process-webui)
 - [YOLO fish](https://github.com/tamim662/YOLO-Fish)
+- Improved [YOLO fish occlusion](https://www.mdpi.com/2076-3417/13/23/12645)
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
