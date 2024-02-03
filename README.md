@@ -34,6 +34,7 @@ Notes native
 - pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 - apt install cmake
 - [CV Webui](https://github.com/isLinXu/vision-process-webui)
+- [YOLO fish](https://github.com/tamim662/YOLO-Fish)
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
