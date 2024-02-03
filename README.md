@@ -12,6 +12,8 @@ Notes native (camera ustreamer)
 - curl -L https://kizniche.github.io/Mycodo/install | bash
 -  curl -s https://pagekite.net/pk/ |sudo bash
 -  [Ustreamer](https://github.com/pikvm/ustreamer?tab=readme-ov-file#raspberry-pi-camera-example)
+-  libcamerify ustreamer --device=/dev/video19 --host=0.0.0.0 --port=8085
+
 
 # Notes Dockerised
 - python -m venv seneye
