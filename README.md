@@ -22,6 +22,10 @@ Notes native
 - sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 - <pi-ip-address>:9000
 - Portainer stack config: [Jupyter](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab?tab=readme-ov-file#jupyterlab-for-raspberry-pi-4-arm64-docker)
+-
+# [Jupyter container](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab)
+
+- apt-get install libopencv-dev
 - [OpenCV & Libcamera](https://github.com/kbarni/LCCV)
 
 
