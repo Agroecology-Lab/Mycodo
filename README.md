@@ -7,10 +7,11 @@ Latest version: 8.15.13
 
 Mycodo is open source software for the Raspberry Pi that couples inputs and outputs in interesting ways to sense and manipulate the environment.
 
-Notes native
+Notes native (camera ustreamer)
 ==========
 - curl -L https://kizniche.github.io/Mycodo/install | bash
 -  curl -s https://pagekite.net/pk/ |sudo bash
+-  [Ustreamer](https://github.com/pikvm/ustreamer?tab=readme-ov-file#raspberry-pi-camera-example)
 
 # Notes Dockerised
 - python -m venv seneye
