@@ -14,6 +14,7 @@ Notes native (camera ustreamer)
 -  [Ustreamer](https://github.com/pikvm/ustreamer?tab=readme-ov-file#raspberry-pi-camera-example)
 -  libcamerify ustreamer --device=/dev/video1 --host=0.0.0.0 --port=8085
 -  [Pi cam Hardware](https://picamera.readthedocs.io/en/release-1.13/fov.html#sensor-modes)
+-  v4l2-ctl -d /dev/video1 --list-formats-ext
 
 
 # Notes Dockerised
