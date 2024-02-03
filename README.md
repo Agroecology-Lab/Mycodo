@@ -31,6 +31,7 @@ Notes native
 - python3 -m pip install -U pip
 - [python3 -m pip install -U matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 - [OpenCV & Libcamera](https://github.com/kbarni/LCCV)
+- pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 - [CV Webui](https://github.com/isLinXu/vision-process-webui)
 
 
