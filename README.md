@@ -12,7 +12,8 @@ Notes native (camera ustreamer)
 - curl -L https://kizniche.github.io/Mycodo/install | bash
 -  curl -s https://pagekite.net/pk/ |sudo bash
 -  [Ustreamer](https://github.com/pikvm/ustreamer?tab=readme-ov-file#raspberry-pi-camera-example)
--  libcamerify ustreamer --device=/dev/video19 --host=0.0.0.0 --port=8085
+-  libcamerify ustreamer --device=/dev/video1 --host=0.0.0.0 --port=8085
+-  [Pi cam Hardware](https://picamera.readthedocs.io/en/release-1.13/fov.html#sensor-modes)
 
 
 # Notes Dockerised
