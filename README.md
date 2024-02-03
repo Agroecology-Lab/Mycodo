@@ -24,8 +24,12 @@ Notes native
 - Portainer stack config: [Jupyter](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab?tab=readme-ov-file#jupyterlab-for-raspberry-pi-4-arm64-docker)
 -
 # [Jupyter container](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab)
-
-- apt-get install libopencv-dev
+- [apt-get install python3-opencv](https://docs.opencv.org/3.4/d2/de6/tutorial_py_setup_in_ubuntu.html)
+- python3
+- import cv2 as cv
+- ctrl D
+- python3 -m pip install -U pip
+- [python3 -m pip install -U matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 - [OpenCV & Libcamera](https://github.com/kbarni/LCCV)
 
 
