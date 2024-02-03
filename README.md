@@ -22,7 +22,7 @@ Mycodo is open source software for the Raspberry Pi that couples inputs and outp
 - pip install
 
 # [camera container ustreamer](https://hub.docker.com/r/pikvm/ustreamer)
-
+- sudo apt-get install libcamera-v4l2
 -  [Ustreamer](https://github.com/pikvm/ustreamer?tab=readme-ov-file#raspberry-pi-camera-example)
 -  libcamerify ustreamer --device=/dev/video1 --host=0.0.0.0 --port=8085
 -  [Pi cam Hardware](https://picamera.readthedocs.io/en/release-1.13/fov.html#sensor-modes)
