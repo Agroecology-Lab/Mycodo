@@ -7,8 +7,22 @@ Latest version: 8.15.13
 
 Mycodo is open source software for the Raspberry Pi that couples inputs and outputs in interesting ways to sense and manipulate the environment.
 
-Notes native (camera ustreamer)
-==========
+# Portainer
+- curl -sSL https://get.docker.com | sh
+- sudo usermod -aG docker $USER
+- sudo docker pull portainer/portainer-ce:latest
+- sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+- <pi-ip-address>:9000
+- Portainer stack config: [Jupyter](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab?tab=readme-ov-file#jupyterlab-for-raspberry-pi-4-arm64-docker)
+
+# Mycodo /sensor container
+- [Mycodo](https://github.com/kizniche/Mycodo/blob/master/docker/README.md)
+-  python -m venv seneye
+- source ./seneye/bin/activate
+- pip install
+
+# [camera container ustreamer](https://hub.docker.com/r/pikvm/ustreamer)
+
 - curl -L https://kizniche.github.io/Mycodo/install | bash
 -  curl -s https://pagekite.net/pk/ |sudo bash
 -  [Ustreamer](https://github.com/pikvm/ustreamer?tab=readme-ov-file#raspberry-pi-camera-example)
@@ -17,18 +31,8 @@ Notes native (camera ustreamer)
 -  v4l2-ctl -d /dev/video1 --list-formats-ext
 
 
-# Notes Dockerised
-- python -m venv seneye
-- source ./seneye/bin/activate
-- pip install
-- curl -sSL https://get.docker.com | sh
-- sudo usermod -aG docker $USER
-- sudo docker pull portainer/portainer-ce:latest
-- sudo docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-- <pi-ip-address>:9000
-- Portainer stack config: [Jupyter](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab?tab=readme-ov-file#jupyterlab-for-raspberry-pi-4-arm64-docker)
--
-# [Jupyter container](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab)
+
+# [AI container](https://github.com/silaskalmbach/Docker_RaspberryPi4_JupyterLab)
 - [apt-get install python3-opencv](https://docs.opencv.org/3.4/d2/de6/tutorial_py_setup_in_ubuntu.html)
 - python3
 - import cv2 as cv
