@@ -46,9 +46,12 @@ Mycodo is open source software for the Raspberry Pi that couples inputs and outp
 - [Yolov8 & Coral](https://github.com/ultralytics/ultralytics/issues/4089)
 - [Resolution issue exporting to edge TPU](https://github.com/ultralytics/ultralytics/issues/4754)
 
-  
+  Coral acceleration
 - 1) [How to train on custom model](https://www.youtube.com/watch?v=XzhTq-nk8GQ)
   2) [Compile for EdgeTPU](https://github.com/blakeblackshear/frigate/discussions/7650#discussioncomment-6897406)
+ 
+  Vivante acceleration
+  https://docs.khadas.com/products/sbc/vim3/npu/start
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
