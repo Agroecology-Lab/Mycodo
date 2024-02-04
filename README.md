@@ -43,6 +43,7 @@ Mycodo is open source software for the Raspberry Pi that couples inputs and outp
 - [CV Webui](https://github.com/isLinXu/vision-process-webui)
 - [YOLO fish](https://github.com/tamim662/YOLO-Fish)
 - Improved [YOLO fish occlusion](https://www.mdpi.com/2076-3417/13/23/12645)
+- [Yolov8 & Coral](https://github.com/ultralytics/ultralytics/issues/4089)
 
 
 |Build Status| |Codacy Badge| |Translation Badge| |DOI|
